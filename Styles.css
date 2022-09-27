@@ -1,0 +1,266 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+</style>
+
+@font-face {
+    font-family:carbon;
+    src: url(CARBON-DROID.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;;
+    background-color: #1E1E1E;
+    color: azure;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+button {
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding:  15px 30px;
+    border:  1px solid #14A2DC;
+    color: #14A2DC;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #14A2DC;
+    box-shadow: 0 0 10px #14A2DC, 0 0 40px #14A2DC, 0 0 80px #14A2DC;
+    transition: 1s;
+    color: #1E1E1E;
+}
+
+header {
+    background-color: #1E1E1E;
+}
+
+header .container {
+    width: auto;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+header .logo {
+    height: 60px;
+}
+
+
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: #3FCBFF;
+    color: azure;
+    
+}
+
+header a:hover {
+    color: #3FCBFF;
+}
+
+#baner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(img/chester-wade-msnyz9L6gs4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sobre-mi {
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+
+#sobre-mi h2 {
+    color: #3FCBFF;
+}
+
+#proyectos {
+    text-align: center;
+    padding: 100px 0px;
+
+}
+
+#proyectos h2 {
+    color: #3FCBFF;
+    margin-top: 0;
+}
+
+#proyectos p {
+    display: none;
+}
+
+
+#toco-madera {
+    background-image: url(img/Tocomadera.png);
+    background-position: center center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#giro-360 {
+    background-image: url(img/giro360.png);
+    background-position: center center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#dash-detail {
+    background-image: url(img/dash-detail.png);
+    background-position: center center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#curriculum .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(img/Curriculum.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    padding: 12px;
+}
+
+#contacto .container {
+    padding: 200px 15px;
+}
+
+#contacto h2 {
+    color: #3FCBFF;
+    text-align: center;
+}
+
+.formulario {
+    box-shadow: 0 0 20px rgba(63,203,255,  .3);
+    padding: 15px;
+}
+
+.formulario input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #3FCBFF;
+    outline: none;
+    color: azure;
+}
+
+.formulario button {
+    width: 100%;
+}
+
+footer {
+    background-color: #191919;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 20vh;
+    padding: 12px;
+}
+
+
+footer .container a  {
+    text-decoration: none;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #sobre-mi .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #baner {
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #sobre-mi .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 0px 30px;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #sobre-mi .img {
+        background-image: url(img/sobre-mi.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
