@@ -6,74 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro Nahuel</title>
     <link rel="stylesheet" href="Styles.css">
-    <!--link logos-->
+    <!--link logos de redes-->
     <script src="https://kit.fontawesome.com/e84212e740.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <header>
+    <!--jsndj-->
+    <header id="inicio">
         <div class="container">
-            <div>
-                <img class="logo" src="" alt="logo">
-            </div>  
+            <a href="#">
+                <img src="img/logoAG.png" alt="logo">
+            </a>  
             <nav>
                 <a href="#sobre-mi">Sobre mi</a>
                 <a href="#proyectos">Proyectos</a>
                 <a href="#curriculum">Curriculum</a>
                 <a href="#contacto">Contacto</a>
-            </nav>
+            </nav>    
         </div>
     </header>
 
+
+    <!--1° Seccion: Inicio-->
     <section id="baner">
         <div class="container">
-            <h1>Hola! <br>Soy Alejandro, <br>Desarrollador Web</h1>
+            <h1>
+                Hola! <br>Soy Alejandro,<br> Desarrollador Web
+            </h1>
             <button>Contactame!</button>
         </div>
     </section>
 
+
+    <!--2° Seccion: Sobre mi-->
     <section id="sobre-mi">
         <div class="container">
             <div class="img"></div>
             <div class="texto">
                 <h2>Sobre Mi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto sint ipsam aperiam aspernatur eius error iusto, quos, harum, quis laboriosam porro expedita quia aliquam consequuntur in optio nihil beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia et quo suscipit error eos exercitationem velit, id eligendi sapiente ratione, beatae non? Esse voluptas odit corporis cum id ullam reiciendis.</p>
+                <p>Soy un Desarrollador Web ubicado en Buenos Aires, Argentina. Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de experiencias de usuario intuitivas y dinámicas. Actualmente presto servicio como soldado voluntario y me especializo en abastecimiento de los efectos relativos a la alimentación del personal, equipamiento, combustibles y lubricantes destinados a las actividades diarias dentro de la unidad militar.</p>
+                <p>Persona organizada y proactiva, adaptable a cambios, con habilidades interpersonales. Siempre orientado al logro de resultados y a la evolución constante en las tareas asignadas. Aficionado al deporte en general, las actividades al aire libre, las series de TV y las novelas literarias policiacas. Persona de familia y un amante de los animales.</p>
+                <p>Interesado en todo el especto frontend y trabajando en proyectos ambiciosos con personas positivas.</p> 
+                </p>
             </div>
         </div>
     </section>
+
+
+    <!--3° Seccion: Mis proyectos-->
+    <!--Para la entrega final cada una de las rutas llevarian a sitios web hechos por mi-->
 
     <section id="proyectos">
         <div class="container">
             <h2>Mis Proyectos</h2>
-            <div id="toco-madera">
-                <h3>Toco Madera</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vel quis eum quam minima eaque ex maiores pariatur ad cum. Dolorem a consectetur praesentium fugit adipisci molestiae voluptatem maxime non.</p>
-                <button>+ info</button>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Toco Madera</h3>  
+                    <a href="https://www.instagram.com/tocomaderaarg/">
+                        <button>+ info</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>Giro 360</h3>
+                    <a href="#">
+                        <button>+ info</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>dash-detail</h3>
+                    <a href="https://www.instagram.com/dash.detaill/">
+                        <button>+ info</button>
+                    </a>
+                </div>  
             </div>
-            <div id="giro-360">
-                <h3>Giro 360</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vel quis eum quam minima eaque ex maiores pariatur ad cum. Dolorem a consectetur praesentium fugit adipisci molestiae voluptatem maxime non.</p>
-                <button>+ info</button>
-            </div>
-            <div id="dash-detail">
-                <h3>Dash Detail</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vel quis eum quam minima eaque ex maiores pariatur ad cum. Dolorem a consectetur praesentium fugit adipisci molestiae voluptatem maxime non.</p>
-                <button>+ info</button>
-            </div>
-         </div>
+        </div>
     </section>
 
+
+
+
+    <!--4° Seccion: Curriculum-->
     <section id="curriculum">
         <div class="container">
+            <img src="img/Curriculum.png" alt="Curriculum">
             <button>Descargar</button>
         </div>
     </section>
 
-    <section id="contacto">
+
+    <!--5° Seccion: Contacto-->
+    
+        <section id="contacto">
         <div class="container">
-            <h2>Contactame</h2>
-            <p>Estoy interesado en oportunidades independientes, especialmente proyectos ambiciosos o grandes. Sin embargo, si tiene otra solicitud o pregunta, no dude en utilizar el formulario.</p>
-            <div class="formulario">
+            <div>
+                <h2>Contactame</h2>
+                <p>Estoy interesado en oportunidades independientes, especialmente proyectos ambiciosos o grandes. Sin embargo, si tiene otra solicitud o pregunta, no dude en utilizar el formulario.</p>
+            </div>
+            <form action="">
                 <p>
                     <label>Nombre y Apellido</label>
                     <input type="text" name="fullname">
@@ -91,7 +120,7 @@
                     <input type="text" name="affair">
                 </p>
                 <p class="bloque">
-                   <label>Mensaje</label> 
+                    <label>Mensaje</label> 
                     <textarea name="message" rows="3"></textarea>
                 </p>
                 <p class="bloque">
@@ -99,18 +128,20 @@
                         Enviar
                     </button>
                 </p>
-            </div>
+            </form>
         </div>
-    </section>
+    </section> 
+
+
+    <!--6° Seccion: Mis redes-->
 
     <footer>
         <div class="container">
-            <a href="#https://www.facebook.com/sopitagarcia" class="fa fa-facebook"></a>
-            <a href="#https://www.instagram.com/nahualejandro.22/" class="fa fa-instagram"></a>
-            <a href="#https://www.linkedin.com/in/alejandro-garcia-9b2055236/" class="fa fa-linkedin"></a>
+            <a href="https://www.facebook.com/sopitagarcia" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/nahualejandro.22/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/alejandro-garcia-9b2055236/" class="fa fa-linkedin"></a>
         </div>
     </footer>
-
 
 </body>
 </html>
