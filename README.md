@@ -1,6 +1,6 @@
-# Porfolio-personal this is my first project as a web developer.
+# Porfolio-personal este es mi primer proyecto como desarrollador web.
 
-<h1 align="center">Hi 👋, I'm Alejandro Nahuel Garcia</h1>
+<h1 align="center">Hola 👋, Me llamo Alejandro Nahuel Garcia</h1>
 <h3 align="center">Soy un Desarrollador Web ubicado en Buenos Aires, Argentina. Tengo una gran pasión por los efectos de interfaz de usuario, las animaciones y la creación de experiencias de usuario intuitivas y dinámicas</h3>
 
 <h3 align="left">Connect with me:</h3>
