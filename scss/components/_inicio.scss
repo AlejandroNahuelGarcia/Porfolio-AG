@@ -1,0 +1,26 @@
+/*1° Seccion: Inicio*/
+
+#baner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+
+    /*De fondo pienso usar una foto similar pero de mi, todavia no pude hacermela*/
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/Baner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+#baner h1 {
+    font-size: 2.8em;
+    padding: 40px;
+}
