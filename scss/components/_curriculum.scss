@@ -1,14 +1,16 @@
-/*4° Seccion: Curriculum*/
+/* 4° Seccion: Curriculum */
 
-#curriculum .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;    
-    
-}
+#curriculum {
 
-#curriculum img {
-    padding: 20px;
-    height: 80vh;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } 
+
+    img {
+        padding: 20px;
+        height: 80vh;
+    }  
 }
