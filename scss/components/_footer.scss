@@ -1,8 +1,10 @@
 /*6° Seccion: Mis redes*/
 
+@import '../base/listas';
+
 footer {
     .container {
-        background-color: #191919;
+        background-color: nth($colores, 1);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -11,10 +13,9 @@ footer {
         
         a  {
             text-decoration: none;
-            color: #ffffff;
+            color: nth($colores, 5);
             width: 60px;
             height: 30px;
-            
             text-align: center;
         }
     }

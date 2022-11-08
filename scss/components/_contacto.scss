@@ -1,5 +1,7 @@
 /*5° Seccion: Contacto*/
 
+@import '../base/listas';
+
 #contacto {
     .container {
         padding: 100px 55px;
@@ -7,7 +9,7 @@
         .cont-text {
             h2 {
                 font-size: 2.8em;
-                color: #3FCBFF;
+                color: nth($colores, 4);
                 text-align: center;
             }
 
@@ -15,32 +17,28 @@
                 padding: 10px;
             }
             
-            @media (min-width: 720px)
-                {display: flex;
+            @media (min-width: 720px) {
+                display: flex;
                 flex-direction: column;
                 justify-content: right;
                 text-align: center;
-                padding: 70px 40px;
+                padding: 70px 30px;
             }
         }
 
         .formulario {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
             box-shadow: 0 0 20px rgba(63,203,255,  .3);
-            padding: 10px;
-            .bloque {
-                grid-column: 1/3;
-            }
+            padding: 20px;
+            
 
             input, textarea  {
                 width: 100%;
-                padding: 12px;
+                padding: 5px;
                 border: none;
                 background: none;
-                border-bottom: 1px solid #3FCBFF;
+                border-bottom: 1px solid nth($colores, 4);
                 outline: none;
-                color: #ffffff;
+                color: nth($colores, 5);
             }
 
             button {

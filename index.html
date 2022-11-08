@@ -5,14 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Nahuel</title>
-    <!-- CDN Bootstrap -->
+    <meta name="description" content="Portfoflio - Alejanro Garcia: Desarrollador Web. Creación de sitios web para internet.">
+    <meta name="keywords" 
+        content="Portfolio, Programacion, Experience, Interfaz, Usuario, Designer, Diseño Multimedia, Desarrollo Web, Desarrollador web, Developer Frontend, Developer, HTML, CSS, SASS, Bootstrap, User Interface Design, User experience, Application Development, Developer, Alejando, Alejandro Garcia">
+    <!-- Metas Open Graph -->
+    <meta property="og:type" content="Portafolio Web">
+    <meta property="og:title" content="Alejandro Garcia | Desarrollador web">
+    <meta property="og:url" content="https://alejandronahuelgarcia.github.io/Porfolio-AG/">
+    <meta property="og:img" content="https://alejandronahuelgarcia.github.io/Porfolio-AG/img/logoAG.png">
+    <meta property="og:description"
+        content="Portfolio Web. Alejandro Garcia: Desarrollador web, creación de sitios web para internet">
+    <meta property="og:site_name " content="Alejandro Garcia | Desarrollador web">
+    <meta property="og:author " content="Alejandro Garcia">
+    <!-- Link Favicon -->
+    <link rel="shortcut icon " type="image/x-icon " href="img/favicon.ico">
+    <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- CSS -->
+    <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!--link logos de redes-->
+    <!-- Link logos de redes-->
     <script src="https://kit.fontawesome.com/e84212e740.js" crossorigin="anonymous"></script>
+    <!-- Title -->
+    <title>Alejandro Garcia | Desarrollador web</title>
 </head>
 
 <body>
@@ -47,7 +62,9 @@
             <h1>
                 Hola! <br>Soy Alejandro,<br> Desarrollador Web
             </h1>
-            <button>Contactame!</button>
+            <a href="#contacto">
+                <button>Contactame!</button>
+            </a>
         </div>
     </section>
 
@@ -76,7 +93,7 @@
 
 
     <!--3° Seccion: Mis proyectos-->
-    <!--Para la entrega final cada una de las rutas llevarian a sitios web hechos por mi-->
+    <!--Proximamente cada una de las rutas llevarian a sitios web que actualmente estoy desarrollando-->
 
     <section id="proyectos">
         <div class="container">
@@ -90,7 +107,7 @@
                 </div>
                 <div class="carta">
                     <h3>Giro 360</h3>
-                    <a href="#">
+                    <a href="https://instagram.com/giro360_viajes?igshid=YmMyMTA2M2Y=" target="_blank">
                         <button>+ info</button>
                     </a>
                 </div>
@@ -107,13 +124,17 @@
 
 
 
-    <!--4° Seccion: Curriculum-->
+    <!--4° Seccion: Curriculum -->
     <section id="curriculum">
         <div class="container">
-            <img src="img/Curriculum.png" alt="Curriculum">
-            <button>Descargar</button>
+            <img src="img/Curriculum.jpg" alt="Curriculum">
+            <a href="descarga/curriculum-alejandro-garcia.pdf" target="_blank">
+                <button>Descargar PDF</button>
+            </a>
         </div>
     </section>
+
+    
 
 
     <!--5° Seccion: Contacto-->
@@ -125,29 +146,21 @@
                 <p>Estoy interesado en oportunidades independientes, especialmente proyectos ambiciosos o grandes. Sin
                     embargo, si tiene otra solicitud o pregunta, no dude en utilizar el formulario.</p>
             </div>
-            <form action="" class="formulario">
+            <form action="https://formsubmit.co/alenaga1999@gmail.com" method="POST" class="formulario">
                 <p>
                     <label>Nombre y Apellido</label>
-                    <input type="text" name="fullname">
+                    <input type="text" name="fullname" required>
                 </p>
                 <p>
                     <label>E-mail</label>
-                    <input type="email" name="email">
+                    <input type="email" name="email" required>
                 </p>
-                <p>
-                    <label>Numero de Contacto</label>
-                    <input type="tel" name="phone">
-                </p>
-                <p>
-                    <label>Asunto</label>
-                    <input type="text" name="affair">
-                </p>
-                <p class="bloque">
+                <p >
                     <label>Mensaje</label>
-                    <textarea name="message" rows="3"></textarea>
+                    <textarea name="message" required></textarea>
                 </p>
-                <p class="bloque">
-                    <button>
+                <p>
+                    <button type="submit">
                         Enviar
                     </button>
                 </p>
@@ -160,7 +173,7 @@
 
     <footer>
         <div class="container">
-            <a href="https://www.facebook.com/sopitagarcia" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://github.com/AlejandroNahuelGarcia" target="_blank" class="fa fa-github"></a>
             <a href="https://www.instagram.com/nahualejandro.22/" target="_blank" class="fa fa-instagram"></a>
             <a href="https://www.linkedin.com/in/alejandro-garcia-9b2055236/" target="_blank" class="fa fa-linkedin"></a>
         </div>

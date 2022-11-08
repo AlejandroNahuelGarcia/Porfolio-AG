@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: "roboto", sans-serif;
   background-color: #151515;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .container {
@@ -36,7 +36,7 @@ button:hover {
   -webkit-box-shadow: 0px -1px 44px -2px rgba(20, 162, 220, 0.87);
   -moz-box-shadow: 0px -1px 44px -2px rgba(20, 162, 220, 0.87);
   transition: 1s;
-  color: #1E1E1E;
+  color: #151515;
 }
 
 /* Navbar */
@@ -58,7 +58,7 @@ button:hover {
   text-align: center;
   flex-direction: column;
   height: 90vh;
-  /*De fondo pienso usar una foto similar pero de mi, todavia no pude hacermela*/
+  /*El background deberia ser una foto mia pero todavia no la tengo*/
   background-image: url(.././img/Baner.jpg);
   background-position: center;
   background-size: cover;
@@ -91,7 +91,7 @@ button:hover {
 }
 #sobre-mi .container .texto h2 {
   font-size: 2.8em;
-  color: #3FCBFF;
+  color: #14A2DC;
 }
 #sobre-mi .container .texto p {
   padding: 10px;
@@ -116,8 +116,8 @@ button:hover {
 
 /* 3° Seccion: Mis proyectos */
 #proyectos {
-  background-color: rgb(30, 30, 30);
-  color: white;
+  background-color: #191919;
+  color: #FFFFFF;
   text-align: center;
 }
 #proyectos .container {
@@ -126,7 +126,7 @@ button:hover {
 #proyectos .container h2 {
   margin-top: 0;
   font-size: 2.8em;
-  color: #3FCBFF;
+  color: #14A2DC;
 }
 #proyectos .container .programas .carta {
   background-position: center center;
@@ -161,7 +161,7 @@ button:hover {
 }
 #proyectos .container .programas .carta a {
   text-decoration: none;
-  color: #3FCBFF;
+  color: #14A2DC;
 }
 @media (min-width: 720px) {
   #proyectos .container .programas .carta {
@@ -197,7 +197,7 @@ button:hover {
 }
 #contacto .container .cont-text h2 {
   font-size: 2.8em;
-  color: #3FCBFF;
+  color: #14A2DC;
   text-align: center;
 }
 #contacto .container .cont-text p {
@@ -209,26 +209,21 @@ button:hover {
     flex-direction: column;
     justify-content: right;
     text-align: center;
-    padding: 70px 40px;
+    padding: 70px 30px;
   }
 }
 #contacto .container .formulario {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   box-shadow: 0 0 20px rgba(63, 203, 255, 0.3);
-  padding: 10px;
-}
-#contacto .container .formulario .bloque {
-  grid-column: 1/3;
+  padding: 20px;
 }
 #contacto .container .formulario input, #contacto .container .formulario textarea {
   width: 100%;
-  padding: 12px;
+  padding: 5px;
   border: none;
   background: none;
-  border-bottom: 1px solid #3FCBFF;
+  border-bottom: 1px solid #14A2DC;
   outline: none;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 #contacto .container .formulario button {
   width: 100%;
@@ -252,7 +247,7 @@ footer .container {
 }
 footer .container a {
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFFFF;
   width: 60px;
   height: 30px;
   text-align: center;

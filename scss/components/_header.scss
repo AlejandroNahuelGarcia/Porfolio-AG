@@ -1,7 +1,9 @@
 /* Navbar */
 
+@import '../base/listas';
+
 .background-nav {
-    background-color: #060606; 
+    background-color: nth($colores, 3); 
 }
 
 .logo {

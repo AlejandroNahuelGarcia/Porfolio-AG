@@ -1,5 +1,7 @@
 /* 2° Seccion: Sobre mi */
 
+@import '../base/listas';
+
 #sobre-mi {
     text-align: center;
     padding: 200px 12px;
@@ -17,7 +19,7 @@
         .texto {
             h2 {
                 font-size: 2.8em;
-                color: #3FCBFF;
+                color: nth( $colores, 4 );
             }
 
             p {
